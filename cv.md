@@ -9,6 +9,7 @@ permalink: /cv/
     * MATLAB (Simulink, Control Systems/DSP Toolboxes)
     * Intermediate C++
  * Applications: Solidworks (Certified Professional)
+
 ## Education 
 ### Northeastern University - Boston, MA
  * MS  Mechanical Engineering (Mechatronics Specialization)
@@ -26,6 +27,7 @@ permalink: /cv/
 ### Independent Coursework - MOOC's & Bootcamps
   * Coursera Machine Learning
   * DataQuest Online Data Science Course
+
 ## Work/Research Experience
  * Symbotic, LLC. Wilmington, MA
     * Industrial Control Engineer (July 2017 - March 2018)

@@ -8,6 +8,6 @@ Hi, I am an engineer with a wide span of interests. My educational background is
 
 My interests in technology include robotic sensing & navigation, deep learning for medicine and agriculture, and computing for art & design.
 
-My interests outside of technology include reading, skiing, vegetarian food, New York City and its history, Shiba Inus, mechanical watches, drawing with my girlfriend, Mario Kart & Donkey Kong on Nintendos of all ages, and running 5k races with my brothers and dad.
+My interests outside of technology include reading, skiing, vegetarian food, New York City history, The Simpsons, mechanical watches, drawing with my girlfriend, Mario Kart, Sid Meier's Civilization, and running 5k races with my brothers and dad.
 
 Contact: pstock175@gmail.com

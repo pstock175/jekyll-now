@@ -3,6 +3,7 @@ layout: page
 title: CV
 permalink: /cv/
 ---
+
 ## Computing Skills
  * Languages:
     * Python for Data Science/Machine Learning (Incl. Keras, Scikit-Learn, Pandas, Spark)
@@ -20,10 +21,9 @@ permalink: /cv/
     * GPA 3.86/4.0
  * Senior Thesis Project: Winning Group
    Visual Self-Inspection System for a 3U CubeSat	
-    * Worked in five-person group in cooperation with NASA Jet Propulsion Lab (JPL) to develop a novel camera apparatus for small satellites, for the purpose of self-inspection
-    * Engineering Tasks Included:	
-    * Mechanical design adhering to NASA standards and strict mass, volume and power allowances
-    * Dynamic/Thermal analysis, testing, and simulation of device in relevant space conditions
+    * Worked in five-person group in cooperation with NASA Jet Propulsion Lab (JPL) to
+    develop a novel camera apparatus for small satellites, for the purpose of self-inspection
+
 ### Independent Coursework - MOOC's & Bootcamps
   * Coursera Machine Learning
   * DataQuest Online Data Science Course

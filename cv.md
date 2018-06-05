@@ -10,7 +10,7 @@ permalink: /cv/
     * Intermediate C++
  * Applications: Solidworks (Certified Professional)
 ## Education 
- ### Northeastern University - Boston, MA
+### Northeastern University - Boston, MA
  * MS  Mechanical Engineering (Mechatronics Specialization)
     * Graduation: May 2017
     * GPA 3.96/4.0
@@ -23,7 +23,7 @@ permalink: /cv/
     * Engineering Tasks Included:	
     * Mechanical design adhering to NASA standards and strict mass, volume and power allowances
     * Dynamic/Thermal analysis, testing, and simulation of device in relevant space conditions
- ### Independent Coursework - MOOC's & Bootcamps
+### Independent Coursework - MOOC's & Bootcamps
   * Coursera Machine Learning
   * DataQuest Online Data Science Course
 ## Work/Research Experience

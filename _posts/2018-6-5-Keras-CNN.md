@@ -25,6 +25,7 @@ bananas = np.load('full_numpy_bitmap_banana.npy')
 ```
 ### *Data Processing*
 In total, 3000 labelled examples will be used: 1500 apples and 1500 bananas. The image_dataset() list will be a 3000 element list of tuples where the first element of the tuple is the 28x28 Numpy array representing the sketch, and the second element of the tuple is the label. Apple will be indicated by 1, and Banana indicated by 0.
+
 ```
 num_images = 1500
 image_dataset = []
@@ -52,7 +53,9 @@ plt.show()
 plt.imshow(sample_banana, cmap='Greys')
 plt.show()
 ```
+
 ![](https://imgur.com/a/U9T9Q9U)
+
 
 ### *Keras CNN Architecture*
 ### 2D-Convolution

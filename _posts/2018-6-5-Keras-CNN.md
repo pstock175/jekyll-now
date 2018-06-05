@@ -2,7 +2,9 @@
 layout: post
 title: Keras CNN for Binary Classification of Hand-Drawn Images
 ---
+![](https://i.imgur.com/TOvikiU.png)
 Patrick Stock 2018
+
 Check out full [Jupyter notebook here](https://github.com/pstock175/ml-portfolio/blob/master/CNN.ipynb)
 
 ### *Data Source*

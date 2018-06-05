@@ -1,3 +1,5 @@
-View portfolio [here](https://pstock175.github.io/)
 
-Patrick Stock's Blog/Portfolio built using Jekyll-Now template (barryclark/jekyll-now)
+## *Machine Learning, Robotics & Data Science Portfolio*
+### Click [here](https://pstock175.github.io/) to view.
+
+Built using Jekyll-Now (barryclark/jekyll-now)

@@ -3,14 +3,13 @@ layout: page
 title: CV
 permalink: /cv/
 ---
-
 ## Computing Skills
  * Languages:
     * Python for Data Science/Machine Learning (Incl. Keras, Scikit-Learn, Pandas, Spark)
     * MATLAB (Simulink, Control Systems/DSP Toolboxes)
     * Intermediate C++
  * Applications: Solidworks (Certified Professional)
-## Education 
+ ## Education 
 ### Northeastern University - Boston, MA
  * MS  Mechanical Engineering (Mechatronics Specialization)
     * Graduation: May 2017
@@ -29,6 +28,7 @@ permalink: /cv/
  ### Independent Coursework - MOOC's & Bootcamps
   * Coursera Machine Learning
   * DataQuest Online Data Science Course
+  
 ## Work/Research Experience
  * Symbotic, LLC. Wilmington, MA
     * Industrial Control Engineer (July 2017 - March 2018)

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Resume
-permalink: /resume/
+title: CV
+permalink: /cv/
 ---
 
 ## Computing Skills

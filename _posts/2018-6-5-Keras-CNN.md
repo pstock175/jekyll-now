@@ -8,11 +8,11 @@ Patrick Stock 2018
 Check out full [Jupyter notebook here](https://github.com/pstock175/ml-portfolio/blob/master/CNN.ipynb)
 
 ### *Data Source*
-The sample sketches come from the Google Quick, Draw! dataset:https://quickdraw.withgoogle.com/data There are many objects represented here, but only Apples and Bananas will be considered here. A few other things to know for this program:
+The sample sketches come from the Google Quick, Draw! dataset: [](https://quickdraw.withgoogle.com/data) There are many objects represented here, but only Apples and Bananas will be considered here. A few other things to know for this program:
 
 The Apple and Banana data sets have ~150,000 sketches each. To keep the analysis simple, only 1,500 will be used from each set. The CNN can still produce accurate results even with the reduced size.
 The Quick, Draw! dataset offers multiple download options, including time-series representations that contain information about the order of drawing of the sketch. This network will only consider the simplified "final result" sketch
-First, the .npy Numpy bitmap files for Apple and Banana are downloaded from the following link, and saved to the working directory: https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap
+First, the .npy Numpy bitmap files for Apple and Banana are downloaded from the following link, and saved to the working directory: [](https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap)
 ```
 import numpy as np
 import matplotlib.pyplot as plt

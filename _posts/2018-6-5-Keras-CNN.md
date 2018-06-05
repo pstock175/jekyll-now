@@ -54,7 +54,7 @@ plt.imshow(sample_banana, cmap='Greys')
 plt.show()
 ```
 
-![](https://imgur.com/a/U9T9Q9U)
+![](https://imgur.com/gallery/x0glZQ0)
 
 
 ### *Keras CNN Architecture*

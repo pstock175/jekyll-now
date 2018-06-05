@@ -51,6 +51,7 @@ plt.imshow(sample_banana, cmap='Greys')
 plt.show()
 ```
 ![](https://imgur.com/a/U9T9Q9U)
+
 ### *Keras CNN Architecture*
 ### 2D-Convolution
 The architecture is a 2-layer model with 2D-Convolutions and Max-Pooling Layers. The image input space is 28x28x1, and each convolution layer uses 14 convolution filters, each 3x3x1. The selection of 14 filters is somewhat arbitrary and can be adjusted to tune model performance and accuracy. The input images are simple and do not have elements that more complex images have such as shading or color. Because of this, tending towards a lower number of convolution filters per layer will still likely produce good results. Additionally, since no stride is specified the default value of 1 will be used, meaning that the output volume will be an activation map of dimension 28x28x8.
@@ -94,5 +95,5 @@ fromfrom  sklearn.metricssklearn.  import accuracy_score
 accuracy = accuracy_score(y_test,y_pred.astype(int))
 print(accuracy)
 ```
-#### Classification accuracy of 91.2% is acheieved on the test set with relatively little tuning to the model¶
+#### Classification accuracy of 91.2% is acheieved on the test set with relatively little tuning to the model
 

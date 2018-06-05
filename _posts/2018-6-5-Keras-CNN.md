@@ -13,7 +13,7 @@ The sample sketches come from the Google Quick, Draw! dataset:https://quickdraw.
 The Apple and Banana data sets have ~150,000 sketches each. To keep the analysis simple, only 1,500 will be used from each set. The CNN can still produce accurate results even with the reduced size.
 The Quick, Draw! dataset offers multiple download options, including time-series representations that contain information about the order of drawing of the sketch. This network will only consider the simplified "final result" sketch
 First, the .npy Numpy bitmap files for Apple and Banana are downloaded from the following link, and saved to the working directory: https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap
-```python
+```
 import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
@@ -25,7 +25,7 @@ bananas = np.load('full_numpy_bitmap_banana.npy')
 ```
 ### *Data Processing*
 In total, 3000 labelled examples will be used: 1500 apples and 1500 bananas. The image_dataset() list will be a 3000 element list of tuples where the first element of the tuple is the 28x28 Numpy array representing the sketch, and the second element of the tuple is the label. Apple will be indicated by 1, and Banana indicated by 0.
-```python
+```
 num_images = 1500
 image_dataset = []
 
@@ -63,7 +63,7 @@ The Max Pooling Layers exist to reduce the image size while still preserving the
 
 ### Flattening & Fully-Connected Layers
 Flattening layers simply unroll the multi-dimensional array to a single vector in preparation for the fully-connected final layers. The final fully-connected layer uses a sigmoid activation to make a probability estimate between liklihood of the image being an apple (1) vs a banana (0)
-```python
+```
 model = Sequential()
 model.add(Conv2D(14,(3,3), input_shape = (28,28,1), activation = 'relu'))
 model.add(MaxPooling2D(pool_size=(2,2)))
@@ -80,7 +80,7 @@ model.compile(optimizer='adam', loss = 'binary_crossentropy', metrics = ['accura
 ```
 ### *Training*
 2500 samples are designated for training with the remaining 500 for the test set. The default batch size is used for 25 training epochs.
-```python
+```
 X_train = np.array([entry[0] for entry in image_dataset[:2500]])
 y_train = np.array([entry[1] for entry in image_dataset[:2500]])
 X_test = np.array([entry[0] for entry in image_dataset[2500:]])
@@ -90,7 +90,7 @@ model.fit(X_train, y_train, epochs = 25)
 ```
 ### *Testing*
 The accuracy on the training set reached 99.08%. The remaining 500 samples can be used to generate predictions and evaluate how well the model generalizes. The binary accuracy metric is used to evaluate performance.
-```python
+```
 y_pred = model.predict(X_test, verbose=1)
 
 fromfrom  sklearn.metricssklearn.  import accuracy_score

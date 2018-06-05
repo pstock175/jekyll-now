@@ -97,5 +97,5 @@ fromfrom  sklearn.metricssklearn.  import accuracy_score
 accuracy = accuracy_score(y_test,y_pred.astype(int))
 print(accuracy)
 ```
-#### Classification accuracy of 91.2% is acheieved on the test set with relatively little tuning to the model
+#### Classification accuracy of 91.2% is achieved on the test set with relatively little tuning to the model
 

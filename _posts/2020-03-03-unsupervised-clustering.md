@@ -38,3 +38,5 @@ We can use our learned PCA matrix to modify each frame in our video and reduce t
 ### *Segmentation of Syllables*
 As can be seen from the above timeseries of PC's there are some PC's active for the duration of the video, creating the long horizontal stripes in the plot. Some of these are to be expected, because of the consistent format of the images, and for example may correspond with the pixels of the centered male. However, the limiting factor in this analysis was the inability to create the PC timeseries with more distinct syllable breaks.
 
+Each syllable should correspond to a repeatable, stereotyped behavior obesrvable to the eye in the courting male fly but this was not always the case. Large changes such as the presence of a female in front of the male could be well-detected in an unsupervised manner, but more nuanced aspects of the behavior such as approach angle and wing extensions were frequently missed. Improving the quality of PC's generated and the algorithm to segment the PC timeseries is an ongoing effort in the lab.
+

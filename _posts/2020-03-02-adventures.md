@@ -20,6 +20,10 @@ The lab is interested in high-throughput trials to test many courting pairs, and
 * Create a hand labelled dataset of fly/not-fly dependent on the contour properties
 * Build a small binary classifier in Keras to determine fly/not-fly, excluding non-fly contours
 
-Once true-fly contours were found, interesting features like heading angle and distance between the flies could be extracted. One of the most clear-readouts of courtship, and therefore one of the best targets in automating the courtship-scoring process, is a sharp transition in interfly distance, where the male transitions from "not caring" to suddenly pursuing the female at a very close distance.
+Once true-fly contours were found, interesting features like heading angle and distance between the flies could be extracted. One of the most clear-readouts of courtship, and therefore one of the best targets in automating the courtship-scoring process, is a sharp transition in interfly distance, where the male transitions from "not caring" to suddenly pursuing the female at a very close distance. The tracker was used to generate the following video, illustrating the sharp decrease in fly-distance.
 
 ![](https://i.imgur.com/vU0OzOL.gif)
+
+This method was used to automate courtship scoring for multiple lab members interested in fly courthsip.
+
+### *Issues with Contour Detector for Tracking*

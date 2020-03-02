@@ -4,10 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am an engineer with a wide span of interests. My educational background is in mechanical & robotics engineering, but I also make things using machine learning and data science. I am from New Hampshire and am currently bouncing between New Hampshire, Boston and NYC.
+Hi! I am a multidisciplinary engineer with an educational background in mechanical & robotics engineering, but currently building custom software and eletronic hardware systems in the Laboratory of Neurophysiology and Behavior at The Rockefeller University under the guidance of Dr. Vanessa Ruta.
 
-My interests in technology include robotic sensing & navigation, deep learning for medicine and agriculture, and computing for art & design.
+The fruit fly *Drosophila* is a model organism with extensive genetic tools that allow manipulations that affect their neural circuits and observable behavior. Like the behavior of any animal, the behavior of *Drosophila* is a result of a combination of innate circuits, baked into the genome, and learned responses gained through experience. The lab aims to define how these mechanisms affect behavior, and my role is twofold:
 
-My interests outside of technology include reading, skiing, vegetarian food, New York City history, The Simpsons, mechanical watches, drawing with my girlfriend, Mario Kart, Sid Meier's Civilization, and running 5k races with my brothers and dad.
+ * I create repeatable virtual reality experiences for the flies such that the behavior can be closely observed, using neural imaging or macrosopic video analysis
+ * I create analysis and visualization tools that allow lab members to represent behaviors in intuitive ways, hopefully elucidating the connection between behavior and its causes
+
+My interests outside of technology include woodworking, reading, Mario Kart, politics, and anything that makes people laugh.
 
 Contact: pstock175@gmail.com

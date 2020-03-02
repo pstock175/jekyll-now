@@ -34,3 +34,10 @@ The presence of shadows, shifts and occlusions was a constant source of error fo
 This trained network was also a boon to some of the larger-format tracking the lab was interested in.
 
 ### *Tracking Large Collectives of Animals over Long Periods of Time*
+When in the presence of food, large groups of flies behave differently. The animation at the head of this page shows how *Drosophila erecta* prefer congregating on food patches, spending the bulk of the 1 hour video there. Most of the mating and courtship done by this subspecies is done on the food, which must indicate some yet-to-be-explored neural mechanism that promotes mating drive in the presence of food. In pursuit of this question, a member of the lab Dr. Philipp Brand, compares these long-term assays across different species. Some more promiscuous species such as *D. Melanogaster* modify their behavior very little in the presence of food.
+
+To support Dr. Brand's interest in long-term, large-group assays, I designed and implemented two software tools.
+1. A modified version of the fly-tracking YOLO network to generate visualizations such as the animation above, as well as spatial heatmaps, shown here, that can be used to identify the statistics of how the animals congregate over a 1-hour trial.
+
+![](https://imgur.com/Vvx2pzI.png)
+

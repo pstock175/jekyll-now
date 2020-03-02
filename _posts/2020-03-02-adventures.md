@@ -3,8 +3,8 @@ layout: post
 title: Tracking Fly Behavior with a Camera
 ---
 
-### *Tracking output of a large Drosophila erecta collective in the presence of food dishes*
 ![](https://i.imgur.com/cyywHzZ.gif)
+Tracking output of a large Drosophila erecta collective in the presence of food dishes
 
 ### *Background*
 One of the most important behavioral readouts in the fruit fly *Drosophila* is free walking behavior. Although fruit flies spend much of their lives flying, reducing the dimensionality of the problem to planar motion can help isolate motivated behaviors such as the pursuit of food, pursuit of a mate or aversion of a predator.  The Ruta Lab has extensive interest in automated tracking of the planar trajectories in *Drosophila*. Machine learning for object detection and localization is an indispensable tool for our lab.

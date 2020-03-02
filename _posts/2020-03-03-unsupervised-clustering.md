@@ -3,7 +3,7 @@ layout: post
 title: Unsupervised Clustering of Male Courtship Behaviors
 ---
 
-![](https://i.imgur.com/Xg5cglI.gif)
+![](https://imgur.com/HglaOay.gif)
 Computationally-corrected video of male and female perspective on courtship. Made using custom software.
 
 ### *Background*

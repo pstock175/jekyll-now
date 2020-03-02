@@ -1,2 +1,2 @@
 
-![](https://i.imgur.com/cyywHzZ.mp4)
+[Imgur](https://imgur.com/cyywHzZ)

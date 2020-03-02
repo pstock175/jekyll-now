@@ -41,3 +41,8 @@ To support Dr. Brand's interest in long-term, large-group assays, I designed and
 
 ![](https://imgur.com/Vvx2pzI.png)
 
+2. A combined machine-vision/human-annotation tool to locate flies over a long term assay, and at various intervals allow a human labeller to assign a categorical behavior note to each animal. This tool is able to generate both spatial and behavioral metrics. Current tracking tools for *Drosophila* behavior can effectively extract kinematic and spatial data, but despite much work, the automatic classification of behavior is still only mildly reliable. By automating the spatial detection and localization of animals, something existing software can do well, and leaving the categorical assignment of behavior to a human annotator, a smaller number of higher-quality data points can be generated.
+
+The tool was built using Python and PyQt, and I am currently working to create time-saving interface features that enable higher throughput.
+![](https://i.imgur.com/OUFPf9n.png)
+

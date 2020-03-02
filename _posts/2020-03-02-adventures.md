@@ -28,4 +28,9 @@ This method was used to automate courtship scoring for multiple lab members inte
 
 ### *Issues with Contour Detector for Tracking*
 The presence of shadows, shifts and occlusions was a constant source of error for this assay. Even with an emphasis on repeatable experimental setup, small shifts could generate erroneous reads that made this method suboptimal. The soution was to train a custo YOLO network to localize the flies, particularly in difficult situations such as occlustions and harsh lighting that would make a pixel-intensity-threshold tracker impossible to use. Shown here is an example of the custom YOLO network detecting flies in suboptimal lighting.
+
 ![](https://lh6.googleusercontent.com/EdhNKC0syCEfRoxV1WJnS6JwYMAQUgyeWGdVImwRywlC51_2HsG-hVZ3x-E-filCtUhoBPSJ1UucZZxBZxpN4pdRM-V9_DPBHWYEnLwlLg=s320)
+
+This trained network was also a boon to some of the larger-format tracking the lab was interested in.
+
+### *Tracking Large Collectives of Animals over Long Periods of Time*
